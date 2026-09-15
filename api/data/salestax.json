@@ -1,0 +1,289 @@
+{
+ "year": 2026,
+ "source": "State rates: state DOR statutes (2025-26). Average local rates: computed by paysums (tools/localavg.py) as the population-weighted average of the local rates in each state's official rate tables, Census SUB-EST2024 weights; per-state sources in data/localavg.json. City combined rates: city/county DOR published combined rates. Verified by the weekly routine. 'lookup' = the state's official rate-by-address lookup page.",
+ "states": {
+  "AL": {
+   "state": 4.0,
+   "avgLocal": 4.49,
+   "lookup": "https://www.revenue.alabama.gov/sales-use/tax-rates/"
+  },
+  "AK": {
+   "state": 0,
+   "avgLocal": 1.17,
+   "lookup": "https://www.commerce.alaska.gov/web/dcra/OfficeoftheStateAssessor/AlaskaTaxableDatabase.aspx"
+  },
+  "AZ": {
+   "state": 5.6,
+   "avgLocal": 2.69,
+   "lookup": "https://azdor.gov/transaction-privilege-tax/tax-rate-table"
+  },
+  "AR": {
+   "state": 6.5,
+   "avgLocal": 2.5,
+   "lookup": "https://www.dfa.arkansas.gov/excise-tax/sales-and-use-tax/local-sales-and-use-tax-information/"
+  },
+  "CA": {
+   "state": 7.25,
+   "avgLocal": 1.72,
+   "lookup": "https://www.cdtfa.ca.gov/taxes-and-fees/rates.aspx"
+  },
+  "CO": {
+   "state": 2.9,
+   "avgLocal": 4.16,
+   "lookup": "https://tax.colorado.gov/sales-tax-rate-lookup"
+  },
+  "CT": {
+   "state": 6.35,
+   "avgLocal": 0
+  },
+  "DE": {
+   "state": 0,
+   "avgLocal": 0
+  },
+  "DC": {
+   "state": 6.0,
+   "avgLocal": 0
+  },
+  "FL": {
+   "state": 6.0,
+   "avgLocal": 0.97,
+   "lookup": "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx"
+  },
+  "GA": {
+   "state": 4.0,
+   "avgLocal": 3.5,
+   "lookup": "https://dor.georgia.gov/sales-tax-rates-general"
+  },
+  "HI": {
+   "state": 4.0,
+   "avgLocal": 0.5,
+   "lookup": "https://tax.hawaii.gov/geninfo/get/"
+  },
+  "ID": {
+   "state": 6.0,
+   "avgLocal": 0.02,
+   "lookup": "https://tax.idaho.gov/taxes/sales-use/"
+  },
+  "IL": {
+   "state": 6.25,
+   "avgLocal": 2.64,
+   "lookup": "https://mytax.illinois.gov/_/"
+  },
+  "IN": {
+   "state": 7.0,
+   "avgLocal": 0
+  },
+  "IA": {
+   "state": 6.0,
+   "avgLocal": 1.0,
+   "lookup": "https://tax.iowa.gov/"
+  },
+  "KS": {
+   "state": 6.5,
+   "avgLocal": 2.14,
+   "lookup": "https://www.ksrevenue.gov/"
+  },
+  "KY": {
+   "state": 6.0,
+   "avgLocal": 0
+  },
+  "LA": {
+   "state": 5.0,
+   "avgLocal": 4.85,
+   "lookup": "https://revenue.louisiana.gov/SalesTax"
+  },
+  "ME": {
+   "state": 5.5,
+   "avgLocal": 0
+  },
+  "MD": {
+   "state": 6.0,
+   "avgLocal": 0
+  },
+  "MA": {
+   "state": 6.25,
+   "avgLocal": 0
+  },
+  "MI": {
+   "state": 6.0,
+   "avgLocal": 0
+  },
+  "MN": {
+   "state": 6.875,
+   "avgLocal": 1.28,
+   "lookup": "https://www.revenue.state.mn.us/sales-tax-rate-calculator"
+  },
+  "MS": {
+   "state": 7.0,
+   "avgLocal": 0.05,
+   "lookup": "https://www.dor.ms.gov/business/sales-and-use-tax"
+  },
+  "MO": {
+   "state": 4.225,
+   "avgLocal": 3.66,
+   "lookup": "https://dor.mo.gov/taxation/business/tax-types/sales-use/rate-tables/"
+  },
+  "MT": {
+   "state": 0,
+   "avgLocal": 0
+  },
+  "NE": {
+   "state": 5.5,
+   "avgLocal": 1.22,
+   "lookup": "https://revenue.nebraska.gov/"
+  },
+  "NV": {
+   "state": 6.85,
+   "avgLocal": 1.42,
+   "lookup": "https://tax.nv.gov/"
+  },
+  "NH": {
+   "state": 0,
+   "avgLocal": 0
+  },
+  "NJ": {
+   "state": 6.625,
+   "avgLocal": 0.0
+  },
+  "NM": {
+   "state": 4.875,
+   "avgLocal": 2.38,
+   "lookup": "https://www.tax.newmexico.gov/governments/gross-receipts-location-code-and-tax-rate-map/"
+  },
+  "NY": {
+   "state": 4.0,
+   "avgLocal": 4.54,
+   "lookup": "https://www.tax.ny.gov/pubs_and_bulls/publications/sales_pubs.htm"
+  },
+  "NC": {
+   "state": 4.75,
+   "avgLocal": 2.36,
+   "lookup": "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/sales-and-use-tax-rates"
+  },
+  "ND": {
+   "state": 5.0,
+   "avgLocal": 2.03,
+   "lookup": "https://www.tax.nd.gov/business/sales-and-use-tax"
+  },
+  "OH": {
+   "state": 5.75,
+   "avgLocal": 1.55,
+   "lookup": "https://thefinder.tax.ohio.gov/"
+  },
+  "OK": {
+   "state": 4.5,
+   "avgLocal": 3.77,
+   "lookup": "https://oklahoma.gov/tax/businesses/sales-use-tax.html"
+  },
+  "OR": {
+   "state": 0,
+   "avgLocal": 0
+  },
+  "PA": {
+   "state": 6.0,
+   "avgLocal": 0.34,
+   "lookup": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/sales-use-and-hotel-occupancy-tax.html"
+  },
+  "RI": {
+   "state": 7.0,
+   "avgLocal": 0
+  },
+  "SC": {
+   "state": 6.0,
+   "avgLocal": 1.48,
+   "lookup": "https://dor.sc.gov/tax/sales"
+  },
+  "SD": {
+   "state": 4.2,
+   "avgLocal": 1.44,
+   "lookup": "https://dor.sd.gov/businesses/taxes/sales-use-tax/"
+  },
+  "TN": {
+   "state": 7.0,
+   "avgLocal": 2.55,
+   "lookup": "https://www.tn.gov/revenue/taxes/sales-and-use-tax/local-sales-tax.html"
+  },
+  "TX": {
+   "state": 6.25,
+   "avgLocal": 1.76,
+   "lookup": "https://comptroller.texas.gov/taxes/sales/"
+  },
+  "UT": {
+   "state": 6.1,
+   "avgLocal": 1.26,
+   "lookup": "https://tax.utah.gov/sales/rates"
+  },
+  "VT": {
+   "state": 6.0,
+   "avgLocal": 0.2,
+   "lookup": "https://tax.vermont.gov/business/sales-and-use-tax"
+  },
+  "VA": {
+   "state": 5.3,
+   "avgLocal": 0.45,
+   "lookup": "https://www.tax.virginia.gov/retail-sales-and-use-tax"
+  },
+  "WA": {
+   "state": 6.5,
+   "avgLocal": 2.83,
+   "lookup": "https://dor.wa.gov/taxes-rates/sales-and-use-tax-rates"
+  },
+  "WV": {
+   "state": 6.0,
+   "avgLocal": 0.28,
+   "lookup": "https://tax.wv.gov/Business/SalesAndUseTax/Pages/SalesAndUseTax.aspx"
+  },
+  "WI": {
+   "state": 5.0,
+   "avgLocal": 0.7,
+   "lookup": "https://www.revenue.wi.gov/Pages/FAQS/pcs-taxrates.aspx"
+  },
+  "WY": {
+   "state": 4.0,
+   "avgLocal": 1.19,
+   "lookup": "https://revenue.wyo.gov/"
+  }
+ },
+ "cities": {
+  "new-york-city": 8.875,
+  "los-angeles": 9.75,
+  "chicago": 10.5,
+  "houston": 8.25,
+  "phoenix": 9.1,
+  "philadelphia": 8.0,
+  "san-antonio": 8.25,
+  "san-diego": 7.75,
+  "dallas": 8.25,
+  "san-jose": 10.0,
+  "austin": 8.25,
+  "jacksonville": 7.5,
+  "san-francisco": 8.625,
+  "columbus": 8.0,
+  "charlotte": 8.25,
+  "indianapolis": 7.0,
+  "seattle": 10.55,
+  "denver": 8.81,
+  "washington-dc": 6.0,
+  "boston": 6.25,
+  "nashville": 9.25,
+  "detroit": 6.0,
+  "portland": 0,
+  "las-vegas": 8.375,
+  "atlanta": 8.9,
+  "miami": 7.0,
+  "minneapolis": 9.025,
+  "baltimore": 6.0,
+  "pittsburgh": 7.0,
+  "cleveland": 8.0,
+  "louisville": 6.0,
+  "kansas-city": 8.975,
+  "st-louis": 9.679,
+  "salt-lake-city": 8.45,
+  "raleigh": 7.25,
+  "tampa": 7.5,
+  "orlando": 6.5,
+  "sacramento": 8.75,
+  "honolulu": 4.712,
+  "newark": 6.625
+ }
+}

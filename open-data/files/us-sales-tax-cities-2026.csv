@@ -1,0 +1,41 @@
+city,state,combined_rate
+New York City,NY,8.875
+Los Angeles,CA,9.75
+Chicago,IL,10.5
+Houston,TX,8.25
+Phoenix,AZ,9.1
+Philadelphia,PA,8.0
+San Antonio,TX,8.25
+San Diego,CA,7.75
+Dallas,TX,8.25
+San Jose,CA,10.0
+Austin,TX,8.25
+Jacksonville,FL,7.5
+San Francisco,CA,8.625
+Columbus,OH,8.0
+Charlotte,NC,8.25
+Indianapolis,IN,7.0
+Seattle,WA,10.55
+Denver,CO,8.81
+"Washington, DC",DC,6.0
+Boston,MA,6.25
+Nashville,TN,9.25
+Detroit,MI,6.0
+Portland,OR,0
+Las Vegas,NV,8.375
+Atlanta,GA,8.9
+Miami,FL,7.0
+Minneapolis,MN,9.025
+Baltimore,MD,6.0
+Pittsburgh,PA,7.0
+Cleveland,OH,8.0
+Louisville,KY,6.0
+Kansas City,MO,8.975
+St. Louis,MO,9.679
+Salt Lake City,UT,8.45
+Raleigh,NC,7.25
+Tampa,FL,7.5
+Orlando,FL,6.5
+Sacramento,CA,8.75
+Honolulu,HI,4.712
+Newark,NJ,6.625
