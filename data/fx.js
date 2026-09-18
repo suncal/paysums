@@ -1,0 +1,1 @@
+window.PS_DATA={"asof":"2026-09-17","base":"USD","source":"European Central Bank euro foreign exchange reference rates (ECB), converted to per-USD","url":"https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml","rates":{"USD":1.0,"EUR":0.871,"GBP":0.74758,"CAD":1.39953,"AUD":1.40571,"INR":95.93894}};(window.PS_D=window.PS_D||{})["fx"]=window.PS_DATA;

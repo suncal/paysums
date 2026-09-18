@@ -1,0 +1,29 @@
+{
+  "country": "CA", "year": 2026, "currency": "CAD",
+  "notes": "Federal 2026 brackets (14% first bracket), BPA $16,452 phasing to $14,829 between $181,440 and $258,482, Canada employment amount $1,507 (indexed). CPP 5.95% on YMPE $74,600 less $3,500; CPP2 4% to YAMPE $85,000 (max CPP2 $416, CRA). EI 1.63% on $68,900 (Quebec 1.30% + QPIP 0.494%). Provincial 2026 brackets indexed from 2025 tables where the province indexes; verify each January AND each July, since CRA issues a July T4032 edition for provinces that change mid-year. Mid-year 2026 changes applied Sep 2026: British Columbia lowest rate 5.06%->5.60% with 2026 thresholds indexed 2.2% and the BC tax reduction raised to $690 (CRA T4032BC-July, effective 1 Jul 2026 for withholding but applying to the whole 2026 tax year; BPA $13,216 per TD1BC 2026); Prince Edward Island BPA $14,650->$15,000 and a new 20% bracket on taxable income over $200,000 (announced 14 Apr 2026, CRA T4032PE-July). PEI's four lower thresholds here are still carried forward indexed and are NOT confirmed against a published PEI table - CRA states PEI does not index its brackets, so these are the file's weakest Canadian figures.",
+  "federal": [[58523, 0.14], [117045, 0.205], [181440, 0.26], [258482, 0.29], [null, 0.33]],
+  "bpa": {"max": 16452, "min": 14829, "phaseStart": 181440, "phaseEnd": 258482},
+  "cea": 1507,
+  "cpp": {"ympe": 74600, "ybe": 3500, "rate": 0.0595, "base": 0.0495, "yampe": 85000, "rate2": 0.04},
+  "qpp": {"ympe": 74600, "ybe": 3500, "rate": 0.064, "base": 0.054, "yampe": 85000, "rate2": 0.04},
+  "ei": {"mie": 68900, "rate": 0.0163, "qcRate": 0.0130},
+  "qpip": {"mie": 101000, "rate": 0.00494},
+  "qcAbatement": 0.165,
+  "rrspLimit": 33810,
+  "provinces": {
+    "ON": {"name": "Ontario", "slug": "ontario", "brackets": [[53891, 0.0505], [107785, 0.0915], [150000, 0.1116], [220000, 0.1216], [null, 0.1316]], "bpa": 12989, "surtax": [[5818, 0.20], [7446, 0.36]],
+           "healthPremium": [[20000, 0, 0.06, 300], [36000, 300, 0.06, 450], [48000, 450, 0.25, 600], [72000, 600, 0.25, 750], [200000, 750, 0.25, 900]]},
+    "QC": {"name": "Quebec", "slug": "quebec", "brackets": [[54495, 0.14], [108985, 0.19], [132620, 0.24], [null, 0.2575]], "bpa": 19004},
+    "BC": {"name": "British Columbia", "slug": "british-columbia", "brackets": [[50363, 0.056], [100728, 0.077], [115648, 0.105], [140430, 0.1229], [190405, 0.147], [265545, 0.168], [null, 0.205]], "bpa": 13216, "taxReduction": {"max": 690, "start": 25570, "rate": 0.0356}},
+    "AB": {"name": "Alberta", "slug": "alberta", "brackets": [[61200, 0.08], [154259, 0.10], [185111, 0.12], [246813, 0.13], [370220, 0.14], [null, 0.15]], "bpa": 22770},
+    "MB": {"name": "Manitoba", "slug": "manitoba", "brackets": [[48516, 0.108], [103224, 0.1275], [null, 0.174]], "bpa": 16288},
+    "SK": {"name": "Saskatchewan", "slug": "saskatchewan", "brackets": [[54532, 0.105], [155805, 0.125], [null, 0.145]], "bpa": 19371},
+    "NS": {"name": "Nova Scotia", "slug": "nova-scotia", "brackets": [[31117, 0.0879], [62235, 0.1495], [94860, 0.1667], [153000, 0.175], [null, 0.21]], "bpa": 11979},
+    "NB": {"name": "New Brunswick", "slug": "new-brunswick", "brackets": [[52332, 0.094], [104666, 0.14], [193861, 0.16], [null, 0.195]], "bpa": 13664},
+    "NL": {"name": "Newfoundland and Labrador", "slug": "newfoundland-and-labrador", "brackets": [[45076, 0.087], [90150, 0.145], [160948, 0.158], [225328, 0.178], [287858, 0.198], [575717, 0.208], [1151435, 0.213], [null, 0.218]], "bpa": 11288},
+    "PE": {"name": "Prince Edward Island", "slug": "prince-edward-island", "brackets": [[33995, 0.095], [65949, 0.1347], [107100, 0.166], [142800, 0.1762], [200000, 0.19], [null, 0.20]], "bpa": 15000},
+    "YT": {"name": "Yukon", "slug": "yukon", "brackets": [[58523, 0.064], [117045, 0.09], [181440, 0.109], [500000, 0.128], [null, 0.15]], "bpa": 16452},
+    "NT": {"name": "Northwest Territories", "slug": "northwest-territories", "brackets": [[53003, 0.059], [106008, 0.086], [172346, 0.122], [null, 0.1405]], "bpa": 18199},
+    "NU": {"name": "Nunavut", "slug": "nunavut", "brackets": [[55801, 0.04], [111601, 0.07], [181439, 0.09], [null, 0.115]], "bpa": 19659}
+  }
+}
