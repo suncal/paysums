@@ -1,0 +1,75 @@
+{
+ "note": "Dated log of changes to the tax tables and reference data behind paysums. Appended by the weekly cloud routine (every change cites its source) and by hand for structural additions. Automated weekly/yearly refreshes (mortgage rates, FX, rents, home values, local sales tax averages) are listed once with their schedule, not per run.",
+ "entries": [
+  {
+   "date": "2026-09-21",
+   "area": "UK",
+   "change": "The National Insurance Lower Earnings Limit is now the 2026/27 figure: \u00a3129 a week, \u00a36,708 a year, up from \u00a3125 a week and \u00a36,500 a year in 2025/26. This is the threshold at which a year counts towards the State Pension and it sets the 'earnings at the LEL' box on a P60, so P60s produced by paysums now show the correct band. The primary threshold (\u00a312,570), the upper earnings limit (\u00a350,270), the 8% and 2% employee rates, the five student loan thresholds and the \u00a36,240\u2013\u00a350,270 auto-enrolment band are all unchanged.",
+   "source": "HMRC, 'Rates and thresholds for employers 2026 to 2027' (gov.uk) and booklet CA38, National Insurance contributions Tables A, D, F, H, J, L, M, N, V and Z, 2026 to 2027",
+   "effective": "2026-04-06"
+  },
+  {
+   "date": "2026-09-14",
+   "area": "France",
+   "change": "The SMIC used by the French calculator is now the 1 June 2026 rate: \u20ac12.31 gross an hour, \u20ac1,867.02 gross a month for 35 hours, up from \u20ac12.02 and \u20ac1,823.03 set on 1 January 2026. A single non-cadre on the SMIC takes home \u20ac1,455.99 a month before income tax, and still pays no income tax.",
+   "source": "Arr\u00eat\u00e9 du 22 mai 2026 relatif au rel\u00e8vement du salaire minimum de croissance (JORF); URSSAF \u00abMontant du Smic\u00bb; travail-emploi.gouv.fr",
+   "effective": "2026-06-01"
+  },
+  {
+   "date": "2026-09-14",
+   "area": "US state income tax",
+   "change": "District of Columbia tables confirmed for 2026 and marked as such: the 4% / 6% / 6.5% / 8.5% / 9.25% / 9.75% / 10.75% brackets are unchanged from 2025, and the DC standard deduction follows the federal one at $16,100 single, $32,200 married, $24,150 head of household.",
+   "source": "DC Office of Tax and Revenue, 2026 D-40ES booklet and TY 2026 Pertinent Data Book",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-09-13",
+   "area": "US sales tax",
+   "change": "Average local sales tax rates for all 50 states + DC are now computed by paysums from each state's official rate tables (population-weighted, Census SUB-EST2024); the Tax Foundation figures were retired. Ten city rates corrected against official files: Nashville 9.25%, Los Angeles 9.75%, Chicago 10.5%, San Jose 10%, Seattle 10.55%, Columbus 8%, Charlotte 8.25%, Phoenix 9.1%, Salt Lake City 8.45%, Kansas City 8.975%.",
+   "source": "State DOR/comptroller rate files; Streamlined Sales Tax rate files; method at /open-data/#local-sales-tax",
+   "effective": "2026-07-01 to 2026-10-01 rate tables"
+  },
+  {
+   "date": "2026-09-13",
+   "area": "Housing",
+   "change": "Median home values and property taxes by state and for 40 cities added (income needed to buy the median home).",
+   "source": "Census Bureau ACS 2024 1-year, tables B25077 and B25103",
+   "effective": "ACS 2024"
+  },
+  {
+   "date": "2026-09-12",
+   "area": "US state income tax",
+   "change": "Mid-year 2026 changes: Utah flat rate cut to 4.45%; West Virginia 2026 rates; British Columbia and Prince Edward Island bracket changes for Canada.",
+   "source": "Utah State Tax Commission; WV Tax Division; BC Ministry of Finance; PEI Finance",
+   "effective": "2026-01-01 / 2026-07-01"
+  },
+  {
+   "date": "2026-09-12",
+   "area": "France",
+   "change": "France edition added: 2026 cotisations (PASS \u20ac48,060, Agirc-Arrco, CSG/CRDS), imp\u00f4t 2026 on 2025 income with quotient familial, d\u00e9cote and CEHR; three reference cases exact against the URSSAF and impots.gouv simulators.",
+   "source": "URSSAF, impots.gouv.fr, Agirc-Arrco",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-09-12",
+   "area": "US federal",
+   "change": "2026 federal tables: brackets from Rev. Proc. 2025-32, standard deduction $16,100 single / $32,200 married / $24,150 head of household, Social Security wage base $184,500, 401(k) limit $24,500, HSA $4,400 / $8,750.",
+   "source": "IRS Rev. Proc. 2025-32; SSA",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-09-12",
+   "area": "Rents",
+   "change": "HUD FY2026 Fair Market Rents loaded for the 40 cities (refreshed every October).",
+   "source": "HUD USER FY2026 FMRs",
+   "effective": "2025-10-01"
+  },
+  {
+   "date": "2026-09-11",
+   "area": "Mortgage rates",
+   "change": "Weekly 30- and 15-year fixed averages refreshed every Thursday (Freddie Mac PMMS); ECB exchange rates refreshed on the same schedule from 2026-09-13.",
+   "source": "Freddie Mac PMMS; European Central Bank",
+   "effective": "weekly"
+  }
+ ]
+}
