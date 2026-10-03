@@ -1,0 +1,313 @@
+{
+ "method": "Population-weighted average local sales tax rate. Every incorporated city gets the local rate its state revenue department publishes for it and the unincorporated remainder of each county gets the county rate; weights are the Census Bureau's latest Vintage sub-county population estimates (SUB-EST2025). Local rate = combined rate at the location minus the statutory state rate. Special districts that cannot be placed from the rate tables alone are included only where noted in the state's source line. Computed by paysums.com from the official sources listed per state; released under CC BY 4.0.",
+ "population": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/cities/totals/sub-est2025.csv",
+ "population_vintage": 2025,
+ "states": {
+  "AK": {
+   "avgLocal": 1.166,
+   "coverage": 0.245,
+   "source": "https://arsstc.org/business-sellers/tax-rates/ (Alaska Remote Seller Sales Tax Commission rate sheet with ZIP codes, Sept 1 2026; no state sales tax)",
+   "computed": "2026-09-13"
+  },
+  "AL": {
+   "avgLocal": 4.492,
+   "coverage": 1.0,
+   "source": "https://www.revenue.alabama.gov/sales-use/local-cities-and-counties-tax-rates-text-file/ (taxrates_current.csv, ALDOR local rate file)",
+   "computed": "2026-09-13"
+  },
+  "AR": {
+   "avgLocal": 2.496,
+   "coverage": 1.0,
+   "source": "https://www.streamlinedsalestax.org/ratesandboundry/Rates/ARR2026Q4AUG28.csv (state's Streamlined Sales Tax rate file)",
+   "computed": "2026-09-13"
+  },
+  "AZ": {
+   "avgLocal": 2.687,
+   "coverage": 1.0,
+   "source": "https://azdor.gov/transaction-privilege-tax/tax-rate-table (TPT_RATETABLE_ALL csv, business code 017 Retail: county rows carry state+county, city rows the city rate)",
+   "computed": "2026-09-13"
+  },
+  "CA": {
+   "avgLocal": 1.718,
+   "coverage": 1.0,
+   "source": "https://www.cdtfa.ca.gov/dataportal/dataset.htm?url=SalesTaxRates (CDTFA Effective Sales and Use Tax Rates)",
+   "computed": "2026-09-13"
+  },
+  "CO": {
+   "avgLocal": 4.16,
+   "coverage": 1.0,
+   "source": "https://data.colorado.gov (DOR datasets h5yt-egtp county rates, wx84-he7r state-collected city rates, nd6a-59yu home-rule city rates) + RTD/SCFD 1.1% and PPRTA 1% districts",
+   "computed": "2026-09-13"
+  },
+  "CT": {
+   "avgLocal": 0.0,
+   "coverage": 0.0,
+   "source": "no local sales taxes (state statute)",
+   "computed": "2026-09-13"
+  },
+  "DC": {
+   "avgLocal": 0.0,
+   "coverage": 0.0,
+   "source": "no local sales taxes (state statute)",
+   "computed": "2026-09-13"
+  },
+  "DE": {
+   "avgLocal": 0.0,
+   "coverage": 0.0,
+   "source": "no local sales taxes (state statute)",
+   "computed": "2026-09-13"
+  },
+  "FL": {
+   "avgLocal": 0.975,
+   "coverage": 1.0,
+   "source": "https://floridarevenue.com/Forms_library/current/dr15dss_26.pdf (DR-15DSS county discretionary surtax, 2026)",
+   "computed": "2026-09-13"
+  },
+  "GA": {
+   "avgLocal": 3.503,
+   "coverage": 1.0,
+   "source": "https://dor.georgia.gov/sales-tax-rates-general (General Rate Chart effective July 1, 2026)",
+   "computed": "2026-09-13"
+  },
+  "HI": {
+   "avgLocal": 0.5,
+   "coverage": 1.0,
+   "source": "https://tax.hawaii.gov/geninfo/countysurcharge/ (0.5% county surcharge on the 4% GET: Honolulu, Hawaii, Kauai and Maui counties)",
+   "computed": "2026-09-13"
+  },
+  "IA": {
+   "avgLocal": 1.0,
+   "coverage": 1.0,
+   "source": "https://www.streamlinedsalestax.org/ratesandboundry/Rates/IAR2025Q3MAY30.zip (state's Streamlined Sales Tax rate file)",
+   "computed": "2026-09-13"
+  },
+  "ID": {
+   "avgLocal": 0.021,
+   "coverage": 0.022,
+   "source": "https://tax.idaho.gov/taxes/sales-use/sales-tax/local-sales-tax/city-sales-tax/ (resort-city local option taxes on general retail sales, per each city's ordinance)",
+   "computed": "2026-09-13"
+  },
+  "IL": {
+   "avgLocal": 2.64,
+   "coverage": 0.996,
+   "source": "https://tax.illinois.gov/research/taxrates/sales-tax-rate-machine-readable-files.html (county/municipality machine-readable file, ordmache-current.txt)",
+   "computed": "2026-09-13"
+  },
+  "IN": {
+   "avgLocal": 0.0,
+   "coverage": 0.0,
+   "source": "no local sales taxes (state statute)",
+   "computed": "2026-09-13"
+  },
+  "KS": {
+   "avgLocal": 2.136,
+   "coverage": 1.0,
+   "source": "https://www.streamlinedsalestax.org/ratesandboundry/Rates/KSR2026Q4AUG19.zip (state's Streamlined Sales Tax rate file)",
+   "computed": "2026-09-13"
+  },
+  "KY": {
+   "avgLocal": 0.0,
+   "coverage": 0.0,
+   "source": "no local sales taxes (state statute)",
+   "computed": "2026-09-13"
+  },
+  "LA": {
+   "avgLocal": 4.852,
+   "coverage": 1.0,
+   "source": "https://lataonline.org/for-taxpayers/city-to-parish-index/ (Louisiana Association of Tax Administrators parish rate tables, 'Comb. Local Rate' column of each parish's current table)",
+   "computed": "2026-09-13"
+  },
+  "MA": {
+   "avgLocal": 0.0,
+   "coverage": 0.0,
+   "source": "no local sales taxes (state statute)",
+   "computed": "2026-09-13"
+  },
+  "MD": {
+   "avgLocal": 0.0,
+   "coverage": 0.0,
+   "source": "no local sales taxes (state statute)",
+   "computed": "2026-09-13"
+  },
+  "ME": {
+   "avgLocal": 0.0,
+   "coverage": 0.0,
+   "source": "no local sales taxes (state statute)",
+   "computed": "2026-09-13"
+  },
+  "MI": {
+   "avgLocal": 0.0,
+   "coverage": 0.0,
+   "source": "no local sales taxes (state statute)",
+   "computed": "2026-09-13"
+  },
+  "MN": {
+   "avgLocal": 1.277,
+   "coverage": 0.963,
+   "source": "https://www.streamlinedsalestax.org/ratesandboundry/Rates/MNR2026Q4AUG18.zip (Streamlined Sales Tax rate file) + Metro Area 1% and Hennepin 0.5% transit districts from DOR's Local Sales and Use Tax guide",
+   "computed": "2026-09-13"
+  },
+  "MO": {
+   "avgLocal": 3.656,
+   "coverage": 0.997,
+   "source": "https://dor.mo.gov/taxation/business/tax-types/sales-use/rate-tables/2026/ (Sales and Use Tax Rate Tables, July 2026 xlsx; base jurisdiction rows without CID/TDD districts)",
+   "computed": "2026-09-13"
+  },
+  "MS": {
+   "avgLocal": 0.051,
+   "coverage": 0.061,
+   "source": "https://www.dor.ms.gov/business/sales-use-tax (Jackson 1% special sales tax, Tupelo 0.25%; no county sales taxes)",
+   "computed": "2026-09-13"
+  },
+  "MT": {
+   "avgLocal": 0.0,
+   "coverage": 0.0,
+   "source": "no local sales taxes (state statute)",
+   "computed": "2026-09-13"
+  },
+  "NC": {
+   "avgLocal": 2.356,
+   "coverage": 1.0,
+   "source": "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/sales-and-use-tax-rates/current-sales-and-use-tax-rates (Total Current S&U Tax Rates CSV, 7-1-2026)",
+   "computed": "2026-09-13"
+  },
+  "ND": {
+   "avgLocal": 2.032,
+   "coverage": 1.0,
+   "source": "https://www.streamlinedsalestax.org/ratesandboundry/Rates/NDR2026Q4AUG14.zip (state's Streamlined Sales Tax rate file)",
+   "computed": "2026-09-13"
+  },
+  "NE": {
+   "avgLocal": 1.215,
+   "coverage": 0.751,
+   "source": "https://www.streamlinedsalestax.org/ratesandboundry/Rates/NER2026Q4AUG21.zip (state's Streamlined Sales Tax rate file)",
+   "computed": "2026-09-13"
+  },
+  "NH": {
+   "avgLocal": 0.0,
+   "coverage": 0.0,
+   "source": "no local sales taxes (state statute)",
+   "computed": "2026-09-13"
+  },
+  "NJ": {
+   "avgLocal": 0.0,
+   "coverage": 0.0,
+   "source": "no local sales taxes (state statute)",
+   "computed": "2026-09-13"
+  },
+  "NM": {
+   "avgLocal": 2.378,
+   "coverage": 1.0,
+   "source": "https://www.tax.newmexico.gov/all-nm-taxes/current-historic-tax-rates-overview/gross-receipts-tax-rates/ (Gross Receipts and Compensating Tax Rate Schedule, July 1 2026 - June 30 2027)",
+   "computed": "2026-09-13"
+  },
+  "NV": {
+   "avgLocal": 1.424,
+   "coverage": 1.0,
+   "source": "https://www.streamlinedsalestax.org/ratesandboundry/Rates/NVR2025Q4NOV05.zip (state's Streamlined Sales Tax rate file)",
+   "computed": "2026-09-13"
+  },
+  "NY": {
+   "avgLocal": 4.539,
+   "coverage": 1.0,
+   "source": "https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, rates by jurisdiction)",
+   "computed": "2026-09-13"
+  },
+  "OH": {
+   "avgLocal": 1.548,
+   "coverage": 1.0,
+   "source": "https://tax.ohio.gov/wps/portal/gov/tax/business/sales-and-use-tax/rate-tables/by-county-q4-2026 (county UST rate table incl. transit authorities, effective Oct 1 2026)",
+   "computed": "2026-09-13"
+  },
+  "OK": {
+   "avgLocal": 3.765,
+   "coverage": 1.0,
+   "source": "https://www.streamlinedsalestax.org/ratesandboundry/Rates/OKR2026Q4AUG17.zip (state's Streamlined Sales Tax rate file)",
+   "computed": "2026-09-13"
+  },
+  "OR": {
+   "avgLocal": 0.0,
+   "coverage": 0.0,
+   "source": "no local sales taxes (state statute)",
+   "computed": "2026-09-13"
+  },
+  "PA": {
+   "avgLocal": 0.335,
+   "coverage": 0.214,
+   "source": "https://www.pa.gov/agencies/revenue (61 Pa. Code: Allegheny County 1% and Philadelphia 2% local sales tax; no other local sales taxes)",
+   "computed": "2026-09-13"
+  },
+  "RI": {
+   "avgLocal": 0.0,
+   "coverage": 0.0,
+   "source": "no local sales taxes (state statute)",
+   "computed": "2026-09-13"
+  },
+  "SC": {
+   "avgLocal": 1.484,
+   "coverage": 1.0,
+   "source": "https://dor.sc.gov/sales-use-tax-index/local-sales-taxes (ST-575 South Carolina Sales Tax Rate by Municipality, rev. 2/5/26)",
+   "computed": "2026-09-13"
+  },
+  "SD": {
+   "avgLocal": 1.442,
+   "coverage": 1.0,
+   "source": "https://www.streamlinedsalestax.org/ratesandboundry/Rates/SDR2026Q3JUN02.zip (state's Streamlined Sales Tax rate file)",
+   "computed": "2026-09-13"
+  },
+  "TN": {
+   "avgLocal": 2.547,
+   "coverage": 1.0,
+   "source": "https://www.streamlinedsalestax.org/ratesandboundry/Rates/TNR2026Q4AUG21.csv (state's Streamlined Sales Tax rate file)",
+   "computed": "2026-09-13"
+  },
+  "TX": {
+   "avgLocal": 1.759,
+   "coverage": 1.0,
+   "source": "https://comptroller.texas.gov/taxes/sales/city.php (city-rates.xlsx, all local jurisdictions)",
+   "computed": "2026-09-13"
+  },
+  "UT": {
+   "avgLocal": 1.257,
+   "coverage": 1.0,
+   "source": "https://www.streamlinedsalestax.org/ratesandboundry/Rates/UTR2026Q4AUG11.csv (state's Streamlined Sales Tax rate file)",
+   "computed": "2026-09-13"
+  },
+  "VA": {
+   "avgLocal": 0.454,
+   "coverage": 1.0,
+   "source": "https://www.tax.virginia.gov/retail-sales-and-use-tax (sales-and-use-tax-rates-by-locality-by-date.xlsx, sheet 'Jan 2026 - Present'); the uniform 1% local tax is already inside the 5.3% state figure",
+   "computed": "2026-09-13"
+  },
+  "VT": {
+   "avgLocal": 0.196,
+   "coverage": 0.196,
+   "source": "https://www.streamlinedsalestax.org/ratesandboundry/Rates/VTR2026Q4AUG20.zip (state's Streamlined Sales Tax rate file)",
+   "computed": "2026-09-13"
+  },
+  "WA": {
+   "avgLocal": 2.83,
+   "coverage": 1.0,
+   "source": "https://dor.wa.gov/taxes-rates/sales-and-use-tax-rates/downloadable-database (Rates_26Q3.csv)",
+   "computed": "2026-09-13"
+  },
+  "WI": {
+   "avgLocal": 0.701,
+   "coverage": 1.0,
+   "source": "https://www.streamlinedsalestax.org/ratesandboundry/Rates/WIR2026Q4AUG17.csv (state's Streamlined Sales Tax rate file)",
+   "computed": "2026-09-13"
+  },
+  "WV": {
+   "avgLocal": 0.283,
+   "coverage": 0.283,
+   "source": "https://www.streamlinedsalestax.org/ratesandboundry/Rates/WVR2026Q3FEB25.csv (state's Streamlined Sales Tax rate file)",
+   "computed": "2026-09-13"
+  },
+  "WY": {
+   "avgLocal": 1.193,
+   "coverage": 1.0,
+   "source": "https://www.streamlinedsalestax.org/ratesandboundry/Rates/WYR2026Q4AUG20.CSV (state's Streamlined Sales Tax rate file)",
+   "computed": "2026-09-13"
+  }
+ }
+}
