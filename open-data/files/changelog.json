@@ -1,0 +1,138 @@
+{
+ "note": "Dated log of changes to the tax tables and reference data behind paysums. Appended by the weekly cloud routine (every change cites its source) and by hand for structural additions. Automated weekly/yearly refreshes (mortgage rates, FX, rents, home values, local sales tax averages) are listed once with their schedule, not per run.",
+ "entries": [
+  {
+   "date": "2026-10-07",
+   "area": "US state payroll deductions",
+   "change": "Colorado's FAMLI premium falls for 2026 and the employee share with it. The total premium drops from 0.90% to 0.88% of wages, split evenly, so the maximum an employer may deduct from an employee goes from 0.45% to 0.44%. The wage base stays tied to the Social Security cap of $184,500. On $75,000 the employee's FAMLI deduction falls from $337.50 to $330.00 a year.",
+   "source": "Colorado Department of Labor and Employment, Family & Medical Leave Insurance Division, FAMLI Business Brief, December 2025 \u2014 \"the rate will decrease to 0.88%, with employers allowed to deduct up to 0.44% from employee wages\"",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-10-05",
+   "area": "US state income tax",
+   "change": "North Dakota's 2026 brackets replace the 2025 ones that were still in use. The income at which North Dakota tax starts rises from $48,475 to $49,575 for a single filer, from $80,975 to $82,800 for a married couple filing jointly and from $64,850 to $66,400 for a head of household, and the 2.5% top rate now starts at $250,400, $304,850 and $277,600 respectively. On $75,000 a single filer's North Dakota tax falls from $203.29 to $181.84.",
+   "source": "North Dakota Office of State Tax Commissioner, 2026 Forms ND-1 and ND-EZ Tax Rate Schedules, printed on 2026 Form ND-1ES (SFN 28709, 12-2025)",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-10-05",
+   "area": "US state income tax",
+   "change": "Kansas head-of-household filers now get the additional $2,320 exemption the state allows them, so their exemption allowance is $11,480 rather than $9,160. On $75,000 a head-of-household filer's Kansas tax falls from $3,241.63 to $3,112.17. Kansas rates (5.20%, then 5.58% above $23,000, or above $46,000 filing jointly) and standard deductions ($3,605 single, $8,240 joint, $6,180 head of household, $4,120 married filing separately) are confirmed unchanged for 2026.",
+   "source": "K.S.A. 79-32,121(b)(1) as amended by 2025 House Bill 2231; Kansas Department of Revenue Notice 25-07 and the Form K-40 instructions; 2026 Form K-40ES",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-10-05",
+   "area": "US state income tax",
+   "change": "Maryland's standard deduction is now the flat $3,350 (single, married filing separately or dependent) and $6,700 (joint, head of household or qualifying surviving spouse) that the state actually allows; it had been modelled here as 15% of income between a floor and a cap, a formula the 2025 Budget Reconciliation and Financing Act repealed. That only changes the answer on lower incomes, where 15% of income fell below the cap: on $20,000 a single filer in Baltimore now pays $586.38 of Maryland tax rather than $603.00, and anyone earning above about $22,350 is unaffected. Maryland county tax is also now charged on Maryland taxable net income instead of on gross wages, which is how the state computes it, so on $75,000 a single filer in Baltimore pays $2,190.40 of county tax rather than $2,400. Anne Arundel County (2.70%/2.94%/3.20%) and Frederick County (2.25%/2.75%/2.96%/3.20%) now use the graduated rates they really levy instead of a single middle rate of 2.81% and 2.96%, which on $75,000 takes Anne Arundel's county tax from $2,107.50 to $1,892.43 and Frederick's from $2,220.00 to $1,796.12. Maryland's state brackets and its $3,200 exemption are confirmed unchanged for 2026.",
+   "source": "Maryland Comptroller, Withholding Tax Facts January 2026 - December 2026 (COM RAD 098 rev. 12/25); Maryland Tax Alert on the Budget Reconciliation and Financing Act of 2025 (Ch. 604), revised 22 December 2025; 2025 Form 502 resident booklet",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-10-05",
+   "area": "US state income tax",
+   "change": "New Mexico's 2026 brackets are confirmed unchanged and the table is now marked as a 2026 one: 1.5%, 3.2%, 4.3%, 4.7%, 4.9% and 5.9% at $5,500, $16,500, $33,500, $66,500 and $210,000 for a single filer, and at $8,000, $25,000, $50,000, $100,000 and $315,000 for joint and head-of-household filers. No figure changed.",
+   "source": "New Mexico Taxation and Revenue Department, FYI-104 'New Mexico Withholding Tax' (Rev. 11/2025), tables effective 1 January 2026",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-10-05",
+   "area": "Canada",
+   "change": "Three Canadian figures corrected against the Canada Revenue Agency's own 2026 publications. The Canada employment amount is $1,501, not $1,507, which raises federal tax by $0.84 at every income above that amount. Prince Edward Island's four lower bracket thresholds, which had been carried forward at the federal 2.0% indexing factor, become $33,928, $65,820, $106,890 and $142,520 - the 2025 figures indexed by PEI's own 1.8% factor - so on $75,000 a PEI filer's provincial tax rises from $7,049.47 to $7,056.17. New Brunswick's first threshold is $52,333 rather than $52,332. The federal brackets, the $16,452 basic personal amount, CPP and CPP2, and EI are all confirmed unchanged for 2026.",
+   "source": "Canada Revenue Agency: 'Indexation adjustment for personal income tax and benefit amounts'; T4127 Payroll Deductions Formulas, 123rd edition (effective 1 July 2026); T4032PE and T4032NB Payroll Deductions Tables, Chart 2",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-09-28",
+   "area": "US sales tax",
+   "change": "Los Angeles goes from 9.75% to 10.25%, the new countywide Los Angeles County rate after Measure ER. No other city in the table changes this quarter: Ohio's only October change is Warren County, which covers none of them, Pennsylvania's Act 21 of 2026 changes where local tax is sourced rather than the Philadelphia or Allegheny rates, and Washington DC stays at 6% because its scheduled rise to 7% was deferred.",
+   "source": "California Department of Tax and Fee Administration Special Notice L-1037 (August 2026)",
+   "effective": "2026-10-01"
+  },
+  {
+   "date": "2026-09-28",
+   "area": "US state income tax",
+   "change": "Arkansas's top individual income tax rate falls from 3.9% to 3.7%. On $75,000 of income a single filer's Arkansas tax drops from $2,712.27 to $2,576.41.",
+   "source": "Arkansas Act 2 of the First Extraordinary Session of 2026; Arkansas Department of Finance and Administration, Individual Income Tax 'What's New?'",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-09-28",
+   "area": "Canada",
+   "change": "Provincial figures that had been carried forward at the federal 2.0% indexing factor are now each province's own published 2026 numbers. Quebec brackets $54,495/$108,985/$132,620 become $54,345/$108,680/$132,245 and its basic personal amount $19,004 becomes $18,952 (indexation 2.05%). Nova Scotia brackets $31,117/$62,235/$94,860/$153,000 become $30,995/$61,991/$97,417/$157,124 and its basic personal amount $11,979 becomes $11,932 (indexation 1.6%). Newfoundland and Labrador brackets $45,076/$90,150/$160,948/$225,328/$287,858/$575,717/$1,151,435 become $44,678/$89,354/$159,528/$223,340/$285,319/$570,638/$1,141,275 (indexation 1.1%) and its basic personal amount $11,288 becomes $13,094, the blended figure for the 2026 tax year after the province raised it to $15,000 from 1 July. Manitoba brackets $48,516/$103,224 become $47,000/$100,000 and its basic personal amount $16,288 becomes $15,780, both frozen at 2024 levels. Saskatchewan's basic personal amount $19,371 becomes $20,381.",
+   "source": "Revenu Quebec 'Taux d'imposition' and quebec.ca 2026 indexation; Nova Scotia 'Personal income tax rates and indexation' (OIC 2025-274); CRA T4032NL-July and Newfoundland and Labrador Budget 2026; Manitoba Budget 2025 Information Bulletin 125 and CRA T4032MB; Saskatchewan '2026 Personal Income Tax Structure'",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-09-21",
+   "area": "UK",
+   "change": "The National Insurance Lower Earnings Limit is now the 2026/27 figure: \u00a3129 a week, \u00a36,708 a year, up from \u00a3125 a week and \u00a36,500 a year in 2025/26. This is the threshold at which a year counts towards the State Pension and it sets the 'earnings at the LEL' box on a P60, so P60s produced by paysums now show the correct band. The primary threshold (\u00a312,570), the upper earnings limit (\u00a350,270), the 8% and 2% employee rates, the five student loan thresholds and the \u00a36,240\u2013\u00a350,270 auto-enrolment band are all unchanged.",
+   "source": "HMRC, 'Rates and thresholds for employers 2026 to 2027' (gov.uk) and booklet CA38, National Insurance contributions Tables A, D, F, H, J, L, M, N, V and Z, 2026 to 2027",
+   "effective": "2026-04-06"
+  },
+  {
+   "date": "2026-09-14",
+   "area": "France",
+   "change": "The SMIC used by the French calculator is now the 1 June 2026 rate: \u20ac12.31 gross an hour, \u20ac1,867.02 gross a month for 35 hours, up from \u20ac12.02 and \u20ac1,823.03 set on 1 January 2026. A single non-cadre on the SMIC takes home \u20ac1,455.99 a month before income tax, and still pays no income tax.",
+   "source": "Arr\u00eat\u00e9 du 22 mai 2026 relatif au rel\u00e8vement du salaire minimum de croissance (JORF); URSSAF \u00abMontant du Smic\u00bb; travail-emploi.gouv.fr",
+   "effective": "2026-06-01"
+  },
+  {
+   "date": "2026-09-14",
+   "area": "US state income tax",
+   "change": "District of Columbia tables confirmed for 2026 and marked as such: the 4% / 6% / 6.5% / 8.5% / 9.25% / 9.75% / 10.75% brackets are unchanged from 2025, and the DC standard deduction follows the federal one at $16,100 single, $32,200 married, $24,150 head of household.",
+   "source": "DC Office of Tax and Revenue, 2026 D-40ES booklet and TY 2026 Pertinent Data Book",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-09-13",
+   "area": "US sales tax",
+   "change": "Average local sales tax rates for all 50 states + DC are now computed by paysums from each state's official rate tables (population-weighted, Census SUB-EST2024); the Tax Foundation figures were retired. Ten city rates corrected against official files: Nashville 9.25%, Los Angeles 9.75%, Chicago 10.5%, San Jose 10%, Seattle 10.55%, Columbus 8%, Charlotte 8.25%, Phoenix 9.1%, Salt Lake City 8.45%, Kansas City 8.975%.",
+   "source": "State DOR/comptroller rate files; Streamlined Sales Tax rate files; method at /open-data/#local-sales-tax",
+   "effective": "2026-07-01 to 2026-10-01 rate tables"
+  },
+  {
+   "date": "2026-09-13",
+   "area": "Housing",
+   "change": "Median home values and property taxes by state and for 40 cities added (income needed to buy the median home).",
+   "source": "Census Bureau ACS 2024 1-year, tables B25077 and B25103",
+   "effective": "ACS 2024"
+  },
+  {
+   "date": "2026-09-12",
+   "area": "US state income tax",
+   "change": "Mid-year 2026 changes: Utah flat rate cut to 4.45%; West Virginia 2026 rates; British Columbia and Prince Edward Island bracket changes for Canada.",
+   "source": "Utah State Tax Commission; WV Tax Division; BC Ministry of Finance; PEI Finance",
+   "effective": "2026-01-01 / 2026-07-01"
+  },
+  {
+   "date": "2026-09-12",
+   "area": "France",
+   "change": "France edition added: 2026 cotisations (PASS \u20ac48,060, Agirc-Arrco, CSG/CRDS), imp\u00f4t 2026 on 2025 income with quotient familial, d\u00e9cote and CEHR; three reference cases exact against the URSSAF and impots.gouv simulators.",
+   "source": "URSSAF, impots.gouv.fr, Agirc-Arrco",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-09-12",
+   "area": "US federal",
+   "change": "2026 federal tables: brackets from Rev. Proc. 2025-32, standard deduction $16,100 single / $32,200 married / $24,150 head of household, Social Security wage base $184,500, 401(k) limit $24,500, HSA $4,400 / $8,750.",
+   "source": "IRS Rev. Proc. 2025-32; SSA",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-09-12",
+   "area": "Rents",
+   "change": "HUD FY2026 Fair Market Rents loaded for the 40 cities (refreshed every October).",
+   "source": "HUD USER FY2026 FMRs",
+   "effective": "2025-10-01"
+  },
+  {
+   "date": "2026-09-11",
+   "area": "Mortgage rates",
+   "change": "Weekly 30- and 15-year fixed averages refreshed every Thursday (Freddie Mac PMMS); ECB exchange rates refreshed on the same schedule from 2026-09-13.",
+   "source": "Freddie Mac PMMS; European Central Bank",
+   "effective": "weekly"
+  }
+ ]
+}
