@@ -1,0 +1,18 @@
+{
+  "country": "UK", "year": "2026/27", "currency": "GBP",
+  "notes": "Income tax: personal allowance £12,570 (frozen), taper £1 per £2 over £100,000; rUK bands 20/40/45; Scottish bands per Scottish Budget 2026-27 (gov.scot factsheet). Class 1 NI 8% PT–UEL, 2% above; 2026/27 limits per HMRC 'Rates and thresholds for employers 2026 to 2027' and booklet CA38 (2026 to 2027): LEL £129 a week = £6,708 a year (was £125 / £6,500 in 2025/26), PT £242 a week = £12,570, UEL £967 a week = £50,270. Student loan thresholds 2026/27 (DfE/SLC): Plan 1 £26,900, Plan 2 £29,385, Plan 4 £33,795, Plan 5 £25,000, Postgraduate £21,000. Auto-enrolment qualifying earnings band £6,240–£50,270 and the £10,000 trigger are unchanged for 2026/27 (DWP review, Jan 2026). Re-confirmed Sep 2026 against gov.uk and gov.scot.",
+  "pa": 12570, "paTaperStart": 100000,
+  "bands": {
+    "ruk": [[37700, 0.20], [125140, 0.40], [null, 0.45]],
+    "scotland": [[3967, 0.19], [16956, 0.20], [31092, 0.21], [62430, 0.42], [112570, 0.45], [null, 0.48]]
+  },
+  "ni": {"lel": 6708, "pt": 12570, "uel": 50270, "main": 0.08, "upper": 0.02},
+  "studentLoan": {
+    "plan1": {"label": "Plan 1", "threshold": 26900, "rate": 0.09},
+    "plan2": {"label": "Plan 2", "threshold": 29385, "rate": 0.09},
+    "plan4": {"label": "Plan 4", "threshold": 33795, "rate": 0.09},
+    "plan5": {"label": "Plan 5", "threshold": 25000, "rate": 0.09},
+    "pgl": {"label": "Postgraduate", "threshold": 21000, "rate": 0.06}
+  },
+  "pension": {"qeLower": 6240, "qeUpper": 50270, "autoEnrolPct": 5}
+}

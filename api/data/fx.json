@@ -1,0 +1,14 @@
+{
+ "asof": "2026-10-15",
+ "base": "USD",
+ "source": "European Central Bank euro foreign exchange reference rates (ECB), converted to per-USD",
+ "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+ "rates": {
+  "USD": 1.0,
+  "EUR": 0.89222,
+  "GBP": 0.75491,
+  "CAD": 1.42068,
+  "AUD": 1.447,
+  "INR": 95.05782
+ }
+}

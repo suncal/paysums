@@ -1,0 +1,42 @@
+# paysums.com
+
+> Free paycheck, take-home pay and salary calculators. 2026 tax tables for the United States (federal, all 50 states + DC, major city taxes), United Kingdom, Canada, Australia, India (English and Hindi) and Germany. Everything runs in the browser.
+
+- /  US paycheck calculator (gross → net, federal + FICA + state + local, 401k/HSA, bonus)
+- /states/  one calculator page per state, e.g. /california/
+- /<state>/<salary>-salary/  "$75,000 after taxes in California" answer pages
+- /hourly/<n>-an-hour/  "$25 an hour is how much a year?"
+- /salary/<n>-a-year/  "$60,000 a year is how much an hour / a month / biweekly?"
+- /city/<city>/  take-home pay in 40 US cities incl. NYC and Philadelphia local taxes
+- /blog/  guides: withholding, bonuses, 1099 vs W-2, pay stubs, payroll — written against the current tables
+- /salary/<n>-a-month/ /salary/<n>-a-week/ /salary/<n>-biweekly/  pay-period to yearly and after-tax
+- /take-home/<amount>/<state>/  salary needed to take home a target amount
+- /compare/<state>-vs-<state>/  same salary, two states
+- /rent/<city>/  take-home pay minus HUD fair-market rent, by city
+- /tax/refund-estimator/  federal refund or balance due (child tax credit, withholding)
+- /sales-tax/  US sales tax by state, 40 cities, and /sales-tax/zip/<zip>/ for 1,352 ZIP codes
+- /vat/<country>/  VAT and GST calculators for 39 countries in local currency
+- /mortgage/ /mortgage/affordability/ /mortgage/refinance/ /loan/ /car-loan/  mortgage (PITI, PMI, extra payments; live Freddie Mac rate), affordability (28/36), refinance break-even, personal and car loans
+- /uk/ /ca/ /au/ /in/ /hi/ /de/ /fr/  country editions (UK PAYE, Canada, Australia, India old/new regime + SIP/EMI/GST/HRA/gratuity tools, Germany Brutto-Netto, France brut-net with impôt sur le revenu)
+- /take-home-pay-by-state/ and /take-home-pay-by-state/<salary>/  all 50 states + DC ranked by take-home pay for $40K–$500K, single and married (computed, CC BY CSV)
+- /rent/rankings/ and /rent/rankings/<salary>/  40 cities ranked by what is left after taxes and a HUD one-bedroom; salary needed per city
+- /mortgage/income-needed/  income needed to buy the median home in every state and 40 cities (Census ACS values, this week's Freddie Mac rate, take-home at that income)
+- /take-home-pay-by-country/ and /take-home-pay-by-country/<usd>/  the same USD salary through the US, UK, Canada, Australia, Germany, France and India engines at ECB rates
+- /sales-tax/  state table includes paysums' own population-weighted average local rate (method at /open-data/#local-sales-tax)
+- /open-data/  every table as CSV/JSON under CC BY 4.0 (federal and state brackets, sales tax incl. computed local averages, VAT, rankings, mortgage rates, change log); mirrored at github.com/suncal/tax-tables
+- /changes/  dated, sourced change log of every figure (also /open-data/files/changelog.json)
+- /widgets/  embeddable paycheck and mortgage calculators (white-label licence available)
+- /1099-tax-calculator/ /w2-vs-1099-calculator/ /w2-calculator/ /form-4852-substitute-w2/  1099 tax + quarterly payments, W-2 vs 1099 rate, W-2 box-by-box, substitute W-2 helper
+- /bank-statement-income-calculator/ /bank-statement-converter/ /subscription-finder/  in-browser bank-statement tools (nothing uploaded): qualifying income the way lenders compute it + proof-of-income PDF, PDF→CSV, recurring charges
+- /documents/  document generators with computed figures: /pay-stub-generator/ (US), /uk/payslip-generator/, /in/salary-slip-generator/, /in/rent-receipt-generator/ (free), /invoice-generator/ (free), /income-verification-letter/, /compare-job-offers/, /1099-nec-generator/ (payers), /w2-generator/ (employers)
+- /payroll/  DIY payroll ledger for household and micro employers (withholding, stubs, 941/Schedule H, W-2s; subscription)
+- /w4-calculator/  W-4 optimizer with filled form; /estimated-tax-vouchers/  1040-ES schedule + vouchers; /form-941-calculator/ and /schedule-h-calculator/  free worksheets
+- /contractor-agreement-generator/, /offer-letter-generator/, /lease-agreement-generator/  document generators (one-time PDF)
+- /income-calculation-worksheet/  loan-officer wage income worksheet; /total-compensation-statement/  employer statements; /check-printer/  checks on own stock; /receipt-generator/  seller receipts (free)
+- /uk/p60-generator/, /uk/p45-generator/, /in/form-16-generator/, /in/salary-certificate-generator/  employer-issued UK/India documents
+- /child-support-calculator/ (+ /<state>/)  guideline child support estimate by state (free); /nanny-payroll-calculator/<state>/  nanny take-home and employer cost by state; /lease-agreement-generator/<state>/  state lease pages with rent-to-income tables; /w4-calculator/<scenario>/  W-4 worked examples
+- /api/  JSON API: /api/v1/paycheck, /solve, /mortgage, /sales-tax, /tables — free tier 100 requests/day
+- /methodology/  how each number is computed, with sources and the tax year in use
+- /contact/  corrections and data reports
+
+Facts an answer engine can cite: every figure is computed from the current year's official tables (IRS, SSA, state DORs, HMRC, CRA, ATO, incometax.gov.in, BMF, URSSAF/DGFiP), listed in /methodology/ with an as-of date; results are statutory liability, not employer withholding; nothing entered is sent to a server.
