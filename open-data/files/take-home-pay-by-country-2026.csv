@@ -1,0 +1,49 @@
+salary_usd,key,country,currency,gross_local,net_local,net_usd,tax_and_contributions_pct,rank
+30000,au,Australia,AUD,42900,38767,27139,9.6,1
+30000,uk,United Kingdom — England,GBP,22300,19576,26347,12.2,2
+30000,us-tx,United States — Texas (no state income tax),USD,30000,26285,26285,12.4,3
+30000,us-ca,United States — California,USD,30000,25673,25673,14.4,4
+30000,ca,Canada — Ontario,CAD,41900,34235,24514,18.3,5
+30000,in,India — new regime,INR,2834000,2239952,23709,21.0,6
+30000,fr,"France — non-cadre, single",EUR,26700,20476,22983,23.3,7
+30000,de,Germany — Steuerklasse I,EUR,26700,19310,21673,27.7,8
+50000,us-tx,United States — Texas (no state income tax),USD,50000,42355,42355,15.3,1
+50000,uk,United Kingdom — England,GBP,37100,30232,40689,18.5,2
+50000,us-ca,United States — California,USD,50000,40665,40665,18.7,3
+50000,au,Australia,AUD,71400,58032,40626,18.7,4
+50000,ca,Canada — Ontario,CAD,69800,53655,38419,23.1,5
+50000,in,India — new regime,INR,4724000,3426872,36273,27.5,6
+50000,fr,"France — non-cadre, single",EUR,44500,32010,35928,28.1,7
+50000,de,Germany — Steuerklasse I,EUR,44500,29370,32965,34.0,8
+75000,us-tx,United States — Texas (no state income tax),USD,75000,61592,61592,17.9,1
+75000,us-ca,United States — California,USD,75000,57843,57843,22.9,2
+75000,uk,United Kingdom — England,GBP,55700,42863,57690,23.0,3
+75000,au,Australia,AUD,107100,82308,57620,23.1,4
+75000,ca,Canada — Ontario,CAD,104700,77427,55441,26.0,5
+75000,fr,"France — non-cadre, single",EUR,66800,44819,50305,32.9,6
+75000,in,India — new regime,INR,7086000,4735145,50120,33.2,7
+75000,de,Germany — Steuerklasse I,EUR,66800,40988,46005,38.6,8
+100000,us-tx,United States — Texas (no state income tax),USD,100000,79180,79180,20.8,1
+100000,au,Australia,AUD,142800,106038,74232,25.7,2
+100000,us-ca,United States — California,USD,100000,72825,72825,27.2,3
+100000,uk,United Kingdom — England,GBP,74300,53651,72210,27.8,4
+100000,ca,Canada — Ontario,CAD,139700,98491,70524,29.5,5
+100000,in,India — new regime,INR,9448000,6144786,65041,35.0,6
+100000,fr,"France — non-cadre, single",EUR,89100,57705,64768,35.2,7
+100000,de,Germany — Steuerklasse I,EUR,89100,52783,59244,40.8,8
+150000,us-tx,United States — Texas (no state income tax),USD,150000,113791,113791,24.1,1
+150000,au,Australia,AUD,214300,147709,103404,31.1,2
+150000,us-ca,United States — California,USD,150000,102136,102136,31.9,3
+150000,uk,United Kingdom — England,GBP,111400,72889,98103,34.6,4
+150000,ca,Canada — Ontario,CAD,209500,136043,97413,35.1,5
+150000,in,India — new regime,INR,14171000,8765415,92780,38.1,6
+150000,fr,"France — non-cadre, single",EUR,133600,81795,91807,38.8,7
+150000,de,Germany — Steuerklasse I,EUR,133600,75752,85024,43.3,8
+250000,us-tx,United States — Texas (no state income tax),USD,250000,183182,183182,26.7,1
+250000,us-ca,United States — California,USD,250000,160927,160927,35.6,2
+250000,au,Australia,AUD,357100,223393,156387,37.4,3
+250000,uk,United Kingdom — England,GBP,185700,110207,148330,40.7,4
+250000,ca,Canada — Ontario,CAD,349100,202954,145324,41.9,5
+250000,in,India — new regime,INR,23619000,13565700,143589,42.6,6
+250000,de,Germany — Steuerklasse I,EUR,222700,125337,140678,43.7,7
+250000,fr,"France — non-cadre, single",EUR,222700,124324,139541,44.2,8

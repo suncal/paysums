@@ -1,0 +1,18 @@
+{
+  "country": "UK", "year": "2026/27", "currency": "GBP",
+  "notes": "Income tax: personal allowance £12,570 (frozen), taper £1 per £2 over £100,000; rUK bands 20/40/45; Scottish bands per Scottish Budget 2026-27 (gov.scot factsheet). Class 1 NI 8% PT–UEL, 2% above; 2026/27 limits per HMRC 'Rates and thresholds for employers 2026 to 2027' and booklet CA38 (2026 to 2027): LEL £129 a week = £6,708 a year (was £125 / £6,500 in 2025/26), PT £242 a week = £12,570, UEL £967 a week = £50,270. Student loan thresholds 2026/27 (DfE/SLC): Plan 1 £26,900, Plan 2 £29,385, Plan 4 £33,795, Plan 5 £25,000, Postgraduate £21,000. Auto-enrolment qualifying earnings band £6,240–£50,270 and the £10,000 trigger are unchanged for 2026/27 (DWP review, Jan 2026). Re-confirmed Sep 2026 against gov.uk and gov.scot. Re-checked 19 Oct 2026 against gov.uk 'Rates and thresholds for employers 2026 to 2027': the rUK bands (£37,700 and £125,140), the 8%/2% Class 1 employee rates, the £967-a-week upper earnings limit and all five student loan thresholds are unchanged. Re-checked 2 Nov 2026 after Budget 2026, delivered on 28 October 2026: nothing in it changes 2026/27, so every figure here stands. For the April 2027 update, Annex A of 'Budget 2026 - Overview of tax legislation and rates' (gov.uk) gives 2027/28 as personal allowance £12,570 and basic rate limit £37,700 both frozen - now maintained to 5 April 2031, so the higher rate threshold stays £50,270 - main rates 20/40/45% unchanged, Class 1 primary threshold £242 a week and upper earnings limit £967 a week unchanged, and one single change: the Lower Earnings Limit rises from £129 to £133 a week, i.e. ni.lel from £6,708 to £6,916. Also from 6 April 2027 the savings and property income rates rise by 2 points to 24/44/49%, which this calculator does not model as it covers employment income, and the Married Couple's Allowance income limit becomes £40,600. The Scottish Budget for 2027-28 has not been delivered, so the Scottish bands here are unchanged.",
+  "pa": 12570, "paTaperStart": 100000,
+  "bands": {
+    "ruk": [[37700, 0.20], [125140, 0.40], [null, 0.45]],
+    "scotland": [[3967, 0.19], [16956, 0.20], [31092, 0.21], [62430, 0.42], [112570, 0.45], [null, 0.48]]
+  },
+  "ni": {"lel": 6708, "pt": 12570, "uel": 50270, "main": 0.08, "upper": 0.02},
+  "studentLoan": {
+    "plan1": {"label": "Plan 1", "threshold": 26900, "rate": 0.09},
+    "plan2": {"label": "Plan 2", "threshold": 29385, "rate": 0.09},
+    "plan4": {"label": "Plan 4", "threshold": 33795, "rate": 0.09},
+    "plan5": {"label": "Plan 5", "threshold": 25000, "rate": 0.09},
+    "pgl": {"label": "Postgraduate", "threshold": 21000, "rate": 0.06}
+  },
+  "pension": {"qeLower": 6240, "qeUpper": 50270, "autoEnrolPct": 5}
+}
