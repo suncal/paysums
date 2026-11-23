@@ -1,0 +1,39 @@
+slug,country,standard_rate,reduced_rates,label,currency
+australia,Australia,10,0,GST,AUD
+austria,Austria,20,13|10,VAT,EUR
+belgium,Belgium,21,12|6,VAT,EUR
+bulgaria,Bulgaria,20,9,VAT,EUR
+canada,Canada (federal GST),5,,GST,CAD
+croatia,Croatia,25,13|5,VAT,EUR
+cyprus,Cyprus,19,9|5,VAT,EUR
+czechia,Czechia,21,12,VAT,CZK
+denmark,Denmark,25,,VAT,DKK
+estonia,Estonia,24,13|9,VAT,EUR
+finland,Finland,25.5,14|10,VAT,EUR
+france,France,20,10|5.5|2.1,VAT,EUR
+germany,Germany,19,7,VAT,EUR
+greece,Greece,24,13|6,VAT,EUR
+hungary,Hungary,27,18|5,VAT,HUF
+ireland,Ireland,23,13.5|9|4.8|0,VAT,EUR
+italy,Italy,22,10|5|4,VAT,EUR
+japan,Japan,10,8,consumption tax,JPY
+latvia,Latvia,21,12|5,VAT,EUR
+lithuania,Lithuania,21,9|5,VAT,EUR
+luxembourg,Luxembourg,17,14|8|3,VAT,EUR
+malta,Malta,18,12|7|5,VAT,EUR
+netherlands,Netherlands,21,9,VAT,EUR
+new-zealand,New Zealand,15,0,GST,NZD
+norway,Norway,25,15|12,VAT,NOK
+poland,Poland,23,8|5,VAT,PLN
+portugal,Portugal,23,13|6,VAT,EUR
+romania,Romania,21,11,VAT,RON
+saudi-arabia,Saudi Arabia,15,,VAT,SAR
+singapore,Singapore,9,,GST,SGD
+slovakia,Slovakia,23,19|5,VAT,EUR
+slovenia,Slovenia,22,9.5|5,VAT,EUR
+south-africa,South Africa,15,0,VAT,ZAR
+spain,Spain,21,10|4,VAT,EUR
+sweden,Sweden,25,12|6,VAT,SEK
+switzerland,Switzerland,8.1,3.8|2.6,VAT,CHF
+uae,United Arab Emirates,5,0,VAT,AED
+uk,United Kingdom,20,5|0,VAT,GBP
